@@ -57,10 +57,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <body>
 	<!-- header -->
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-light text-white py-0">
+		<div class="container bg-white">
+			<div class="row">
+
+				<div class="col-md-6 text-left">
+					<h4><i class="fa fa-envelope"></i>: info@select.com</h4>
+				</div>
+
+				<div class="col-md-6 text-right">
+					<h4><i class="fa fa-phone"></i> 09137894958</h4>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-light py-0" style="background-color:rgba(255,255,255,.8)">
 			<div class="container">
 				<a class="navbar-brand" href="index.html">
-					<img src="images/logo3.png" alt="" class="img-fluid">
+					<img src="images/logo3.png" alt="" class="img-fluid img img-responsive w-50" width="20px" height="20px">
 				</a>
 				<button class="navbar-toggler ml-md-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 				    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,19 +83,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 					<ul class="navbar-nav ml-auto text-center">
 						<li class="nav-item ">
-							<a class="nav-link text-white" href="index.html">Home
+							<a class="nav-link " href="index.html">Home
 								<span class="sr-only">(current)</span>
 							</a>
 						</li>
 						<li class="nav-item ">
-							<a class="nav-link text-white" href="about.html">About Us</a>
+							<a class="nav-link " href="about.html">About Us</a>
 						</li>
 						
 						<li class="nav-item">
-							<a class="nav-link text-white" href="offers.html">Our Services</a>
+							<a class="nav-link " href="offers.html">Our Services</a>
 						</li>
 						<li class="nav-item active">
-							<a class="nav-link text-white" href="contact.html">Contact Us</a>
+							<a class="nav-link " href="contact.html">Contact Us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link " href="contact.html">Terms of Service</a>
 						</li>
 						<li class="nav-item">
 							<button type="button"  data-toggle="modal" data-target="#exampleModal" class="text-white btn btn-danger btn-sm p-3 peach-gradient rounded-pill" >Request A Maid</button>
@@ -144,13 +159,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<h4 class="mb-4 title-2-agiles">Our Address</h4>
 						<ul class="contact_info list-unstyled">
 							<li>
-								<i class="fas fa-location-arrow mr-3"></i>1234k Avenue, 4th block, Ukraine.</li>
+
 							<li class="my-4">
 								<i class="fas fa-envelope-open mr-3"></i>
 								<a href="mailto:info@example.com">info@example.com</a>
 							</li>
 							<li>
-								<i class="fas fa-phone mr-3"></i>+1234 567 567</li>
+								<i class="fas fa-phone mr-3"></i>09137894958</li>
 						</ul>
 					</div>
 				</div>
@@ -195,13 +210,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-8 copy">
-					<p class="mt-md-5 pt-md-4">&copy; Select Royal Maids Agency
+				<div class="col-md-4 copy">
+					<p class="mt-md-5 pt-md-4">&copy; Select Royal Maids Agency.
 					</p>
+				</div>
+				<div class="col-md-4">
+					<div class="container py-3 text-center text-white rounded-lg" >
+			<i class="fas fa-phone fa-4x py-2"></i>
+			<p class="py-1">Call Us On</p>
+			<p class="py-1">09137894958</p>
+			<p class="py-1">To Enquire about our services</p>
+	</div>
 				</div>
 				<div class="col-md-4 logo-2 text-md-right text-center">
 					<a class="logo-footer" href="index.html">
-						<img src="images/logo3.png" alt="" class="img-fluid">
+						<img src="images/logo3.png" alt="" class="img-fluid img-thumbnail p-2">
 					</a>
 				</div>
 			</div>
@@ -213,7 +236,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Choose A Plan</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Request a Maid</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -262,7 +285,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
       </div>
       <div class="modal-footer content-center">
-        <button type="button" class="btn btn-sm peach-gradient">Request Quote</button>
+        <button type="button" class="btn btn-sm peach-gradient">Request A Maid</button>
       </div>
     </div>
   </div>

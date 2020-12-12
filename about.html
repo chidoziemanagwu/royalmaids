@@ -57,10 +57,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <body>
 	<!-- header -->
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-light text-white py-0">
+		<div class="container bg-white">
+			<div class="row">
+
+				<div class="col-md-6 text-left">
+					<h4><i class="fa fa-envelope"></i>: info@select.com</h4>
+				</div>
+
+				<div class="col-md-6 text-right">
+					<h4><i class="fa fa-phone"></i> 09137894958</h4>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-light  py-0" style="background-color:rgba(255,255,255,.8)">
 			<div class="container">
 				<a class="navbar-brand" href="index.html">
-					<img src="images/logo3.png" alt="" class="img-fluid">
+					<img src="images/logo3.png" alt="" class="img-fluid img img-responsive w-50" width="20px" height="20px">
 				</a>
 				<button class="navbar-toggler ml-md-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 				    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,19 +83,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 					<ul class="navbar-nav ml-auto text-center">
 						<li class="nav-item ">
-							<a class="nav-link text-white" href="index.html">Home
+							<a class="nav-link " href="index.html">Home
 								<span class="sr-only">(current)</span>
 							</a>
 						</li>
 						<li class="nav-item active">
-							<a class="nav-link text-white" href="about.html">About Us</a>
+							<a class="nav-link " href="about.html">About Us</a>
 						</li>
 						
 						<li class="nav-item">
-							<a class="nav-link text-white" href="offers.html">Our Services</a>
+							<a class="nav-link " href="offers.html">Our Services</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-white" href="contact.html">Contact Us</a>
+							<a class="nav-link " href="contact.html">Contact Us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link " href="contact.html">Terms of Service</a>
 						</li>
 						<li class="nav-item">
 							<button type="button"  data-toggle="modal" data-target="#exampleModal" class="text-white btn btn-danger btn-sm p-3 peach-gradient rounded-pill" >Request A Maid</button>
@@ -164,9 +179,15 @@ For those seeking a private housekeeper job, click here to find out how you can 
 						<h5 class="text-uppercase">Standard</h5>
 					</div>
 					<div class="text-center my-3 py-3">
-					<i class="fa fa-money-bill fa-3x"></i>
-					<h2>N18,500</h2>
-					<a href="offers.html" class="btn btn-sm animated-button victoria-two text-dark mt-4">Request a maid</a>
+						<p class="my-2"><b>Features</b></p>
+						<hr>
+					<ul class="list-group list-group-flush">
+			    <li class="list-group-item">Vetting candidates</li>
+			    <li class="list-group-item">Home/residence confirmation</li>
+			    <li class="list-group-item">Orientation</li>
+			    <li class="list-group-item">Guarantors</li>
+			  </ul>
+					<a data-toggle="modal" data-target="#exampleModal" class="btn btn-sm animated-button victoria-two text-dark mt-4">Request a maid</a>
 					</div>
 				</div>
 
@@ -176,12 +197,21 @@ For those seeking a private housekeeper job, click here to find out how you can 
 						<h5 class="text-uppercase">Premium</h5>
 					</div>
 					<div class="text-center my-3 py-3">
-					<i class="fa fa-money-bill fa-3x"></i>
-					<h2>N29,000</h2>
-					<a href="offers.html" class="btn btn-sm animated-button victoria-two text-dark mt-4">Request a maid</a>
+						<p class="my-2"><b>Features</b></p>
+						<hr>
+					<ul class="list-group list-group-flush">
+			    <li class="list-group-item">Vetting candidates</li>
+			    <li class="list-group-item">Home/residence confirmation</li>
+			    <li class="list-group-item">Training</li>
+			    <li class="list-group-item">Full background check report</li>
+			    <li class="list-group-item">Guarantors</li>
+			    <li class="list-group-item">Medical report</li>
+			    <li class="list-group-item">Uniform</li>
+			  </ul>
+					<a data-toggle="modal" data-target="#exampleModal" class="btn btn-sm animated-button victoria-two text-dark mt-4">Request a maid</a>
 					</div>
 				</div>
-			</div>
+			</div>>
 		</div>
 	</section>
 	<!-- //services -->
@@ -273,13 +303,21 @@ For those seeking a private housekeeper job, click here to find out how you can 
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-8 copy">
-					<p class="mt-md-5 pt-md-4">&copy; Select ROyal Maids Agency
+				<div class="col-md-4 copy">
+					<p class="mt-md-5 pt-md-4">&copy; Select Royal Maids Agency.
 					</p>
+				</div>
+				<div class="col-md-4">
+					<div class="container py-3 text-center text-white rounded-lg" >
+			<i class="fas fa-phone fa-4x py-2"></i>
+			<p class="py-1">Call Us On</p>
+			<p class="py-1">09137894958</p>
+			<p class="py-1">To Enquire about our services</p>
+	</div>
 				</div>
 				<div class="col-md-4 logo-2 text-md-right text-center">
 					<a class="logo-footer" href="index.html">
-						<img src="images/logo3.png" alt="" class="img-fluid">
+						<img src="images/logo3.png" alt="" class="img-fluid img-thumbnail p-2">
 					</a>
 				</div>
 			</div>
@@ -290,7 +328,7 @@ For those seeking a private housekeeper job, click here to find out how you can 
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Choose A Plan</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Request a Maid</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -339,7 +377,7 @@ For those seeking a private housekeeper job, click here to find out how you can 
 
       </div>
       <div class="modal-footer content-center">
-        <button type="button" class="btn btn-sm peach-gradient">Request Quote</button>
+        <button type="button" class="btn btn-sm peach-gradient">Request A Maid</button>
       </div>
     </div>
   </div>

@@ -203,7 +203,8 @@ li.login-list-w3ls.d-inline a {
 /* banner */
 .banner-w3-1,
 .banner-w3-2,
-.banner-w3-3 {
+.banner-w3-3,
+.banner-w3-4 {
     min-height: 50vw;
 }
 
@@ -234,8 +235,18 @@ li.login-list-w3ls.d-inline a {
     background-size: cover;
 }
 
+.banner-w3-4 {
+    background: url(../images/4.jpg)no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
+
 .banner-text {
     padding-top: 20em;
+    color:black;
 }
 
 p.movetxt {
