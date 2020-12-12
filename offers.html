@@ -59,15 +59,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 text-left">
-			<p><i class="fa fa-envelope"></i>: info@email.com</p>
+			<p><i class="fa fa-envelope"></i> info@email.com</p>
 		</div>
 
 		<div class="col-md-6 text-right">
-			<p><i class="fa fa-phone"></i>: <a href="tel:09137894958">09137894958</a></p>
+			<p><i class="fa fa-phone"></i> <a href="tel:09137894958">09137894958 </a></p>
 		</div>
 	</div>
-	</div>
-<nav class="navbar navbar-expand-lg navbar-light orange-color">
+
+</div>
+<nav class="navbar navbar-expand-lg navbar-light ">
 
   <!-- Navbar brand -->
   <a class="navbar-brand" href="index.html"><img src="images/logo3.png" alt="" class="img-fluid img img-responsive w-50" width="20px" height="20px"></a>
@@ -84,25 +85,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- Links -->
     <ul class="navbar-nav ml-auto text-center">
 						<li class="nav-item active">
-							<a class="nav-link text-black " href="index.html">Home
+							<a class="nav-link  " href="index.html">Home
 								<span class="sr-only">(current)</span>
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-black " href="about.html">About Us</a>
+							<a class="nav-link  " href="about.html">About Us</a>
 						</li>
 						
 						<li class="nav-item">
-							<a class="nav-link text-black " href="offers.html">Our Services</a>
+							<a class="nav-link  " href="offers.html">Our Services</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-black " href="contact.html">Contact Us</a>
+							<a class="nav-link  " href="contact.html">Contact Us</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-black " href="contact.html">Terms of Service</a>
+							<a class="nav-link  " href="contact.html">Terms of Service</a>
 						</li>
 						<li class="nav-item">
-							<button type="button"  data-toggle="modal" data-target="#exampleModal" class="text-white btn btn-danger btn-sm p-3 peach-gradient rounded-pill" >Request A Maid</button>
+							<a href="order.html" class="text-white btn btn-danger btn-sm p-3 peach-gradient rounded-pill" >Request A Maid</a>
+						</li>
+						<li class="nav-item">
+							<a href="tel:09137894958" class="text-white btn btn-danger btn-sm p-3 btn-secondary rounded-pill" ><i class="fa fa-phone"></i> Call Us</a>
 						</li>
 					</ul>
     <!-- Links -->
@@ -415,16 +419,31 @@ Some families hire live-in housekeepers that work on a full-time basis and are e
                 <input type="text" class="form-control my-3" name="w3lSubject" id="w3lSubject" placeholder="type of apartment" required="">
             </div>
             <div class="twice">
-                <input type="text" class="form-control my-3" name="w3lSubject" id="w3lSubject" placeholder="gender of required cleaner" required="">
+                <select class="browser-default custom-select">
+  <option selected>Marital Status</option>
+  <option value="1">Single</option>
+  <option value="2">Married</option>
+</select>
             </div>
             <div class="twice">
-                <input type="text" class="form-control my-3" name="w3lSubject" id="w3lSubject" placeholder="service required" required="">
+                <select class="browser-default custom-select">
+  <option selected>Choose Gender of househelp</option>
+  <option value="1">Male</option>
+  <option value="2">Female</option>
+</select>
             </div>
             <div class="twice">
                 <input type="text" class="form-control my-3" name="w3lSubject" id="w3lSubject" placeholder="service required" required="">
             </div>
             <div class="twice">
                 <input type="text" class="form-control my-3" name="w3lSubject" id="w3lSubject" placeholder="how soon is service required" required="">
+            </div>
+            <div class="twice">
+                <select class="browser-default custom-select">
+  <option selected>Choose a package</option>
+  <option value="1">Standard</option>
+  <option value="2">Premium</option>
+</select>
             </div>
         </form>
 

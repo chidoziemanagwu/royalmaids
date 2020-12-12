@@ -894,7 +894,7 @@ footer {
 /* //footer */
 /* Inner pages */
 .banner2-w3ls {
-    background: url(../images/3.jpg) no-repeat center;
+    background: url(../images/3.jpg) no-repeat center ;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -1389,7 +1389,7 @@ img.img-responsive {
     }
 
     ul.navbar-nav {
-        background: rgba(0, 0, 0, 0.85);
+        /*background: rgba(0, 0, 0, 0.85);*/
         padding: 1.5em 0;
     }
 
